@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "748398520140",
+    "project_id": "rubrik-daddf",
+    "storage_bucket": "rubrik-daddf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748398520140:android:03f47d8c610101a05711e9",
+        "android_client_info": {
+          "package_name": "com.example.rubrik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748398520140-lq72o4jo0pqm3cu1eh9cm03f4voqbv8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNRbdahGRM04gxb9OMryLN0FFIl6KborI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748398520140-lq72o4jo0pqm3cu1eh9cm03f4voqbv8f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "748398520140-434snvhonsrvshnb6ppdef9i24n48jq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rubrik"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
