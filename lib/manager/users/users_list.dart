@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:rubrik/manager/users/user_performance_detail.dart';
 
 class UsersListPage extends StatefulWidget {
   const UsersListPage({super.key});
@@ -163,8 +164,17 @@ class _UsersListPageState extends State<UsersListPage> {
                                       icon: Icon(Icons.bar_chart, size: 16, color: Colors.blueGrey.shade900),
                                       label: Text("View Metrics", style: TextStyle(color: Colors.blueGrey.shade900)),
                                       onPressed: () {
-                                        // View metrics action
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (_) => UserPerformanceDetailPage(
+                                              userId: userDoc.id,
+                                              userName: user['name'] ?? 'Unknown',
+                                            ),
+                                          ),
+                                        );
                                       },
+
                                     ),
                                   ],
                                 )),
